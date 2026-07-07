@@ -65,11 +65,7 @@ h1,h2,h3 {
     font-family: "Nunito", sans-serif;
 }
 
-h1 {color: white;
-    font-size: 54px;
-    margin-top: 43px;
-    margin-left: 56px;
-    margin-bottom: 257px;
+h1 {font-size: 52px;
 }
 
 h2 {
@@ -242,4 +238,11 @@ main section div.imagem-herosection{
     display: flex;
     gap: 36px;
     margin-left: 60.5px;
+}
+.h1-inicio{
+    color: white;
+    font-size: 54px;
+    margin-top: 43px;
+    margin-left: 56px;
+    margin-bottom: 257px;
 }
