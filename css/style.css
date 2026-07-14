@@ -184,7 +184,6 @@ nav>p {
 section{
     height: 100vh;
     width: 100%;
-    background-color: #16a34a;
     display: flex;
 }
 
@@ -224,11 +223,12 @@ main section div p{
     margin-left: 61.5px;
     margin-bottom: 34px;
 }
-main section div.imagem-herosection{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    overflow: hidden;
+main section .imagem-herosection img{
+   
+    width: 629px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .hero-text{
     display: flex;
@@ -244,5 +244,12 @@ main section div.imagem-herosection{
     font-size: 54px;
     margin-top: 43px;
     margin-left: 56px;
-    margin-bottom: 257px;
+    margin-bottom: 150px;
+}
+#hero{
+    background-image: url(../assets/img/Frame\ -ondas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 149.73px);
 }
