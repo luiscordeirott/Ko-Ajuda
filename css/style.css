@@ -65,8 +65,7 @@ h1,h2,h3 {
     font-family: "Nunito", sans-serif;
 }
 
-h1 {
-    font-size: 52px;
+h1 {font-size: 52px;
 }
 
 h2 {
@@ -91,6 +90,10 @@ a {
     border-radius: 120px;
     background-color: var(--bg-card);
     padding: 10px 20px 10px 20px;
+    width: 120px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -179,8 +182,9 @@ nav>p {
 }
 
 section{
-    height: 1024px;
-    background-color: #16a34a;
+    height: 100vh;
+    width: 100%;
+    display: flex;
 }
 
 .alert-status{
@@ -211,4 +215,41 @@ section{
 footer {
     height: 200px;
     background-color: #16a34a;
+}
+main section div p{
+    color: white;
+    font-size: 20px;
+    width: 441px;
+    margin-left: 61.5px;
+    margin-bottom: 34px;
+}
+main section .imagem-herosection img{
+   
+    width: 629px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.hero-buttons{
+    display: flex;
+    gap: 36px;
+    margin-left: 60.5px;
+}
+.h1-inicio{
+    color: white;
+    font-size: 54px;
+    margin-top: 43px;
+    margin-left: 56px;
+    margin-bottom: 150px;
+}
+#hero{
+    background-image: url(../assets/img/Frame\ -ondas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 149.73px);
 }
